@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --blue: #0332FC;
+    --gray: #F2F2F2;
+    --light-blue: #30A8F2;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 2rem;
+    background-color: var(--gray);
+}
+
+nav img {
+    height: 50px;
+    border-radius: 26px;
+}
+
+nav div {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    gap: 3rem;
+    color: var(--blue);
+}
+
+.navigation a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.navigation__get_start {
+    border: 2px solid var(--blue);
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+}
