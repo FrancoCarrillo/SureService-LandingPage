@@ -224,3 +224,52 @@ h3 {
     max-height: 340px;
     max-width: 85%;
 }
+
+.our_team {
+    display: flex;
+    padding: 4.7em 7%;
+    background-color: var(--gray);
+}
+
+.our_team > div {
+    width: 50%;
+}
+
+.our_team img {
+    margin-left: 15%;
+    max-height: 340px;
+    max-width: 85%;
+}
+
+.our_team__link {
+    color: var(--blue);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 4.7em 7%;
+}
+
+footer img {
+    width: 28px;
+}
+
+.information__title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.information__license {
+    padding-top: 20px;
+}
+
+.contact div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
